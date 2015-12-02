@@ -1,0 +1,42 @@
+8b PR Issues
+Help us help you
+2 Dec 2015
+
+Aidan Coyle
+SE Intern
+acoyle@enova.com
+
+* Let the tests finish
+
+Travis runs for portfolio take ~10 minutes.
+
+Make sure to double check things like rubocop.
+
+* PR Body
+
+Write a description of the change you're making.
+
+Don't assume we can all see your pivotal (we probably can't).
+
+* Don't Merge
+
+If your PR is out of date, rebase it off of master.
+
+Don't use the button that says 'update branch'.
+
+* Don't have blippy commits
+
+F@#% Rubocop isn't really useful information to anyone later.
+
+You can squash these down later if you want.
+
+* Ask earlier rather than later
+
+After your PR merges travis has to run again, and we need to check staging before we release. This whole process takes 30 minutes to an hour.
+
+Asking at 4PM about a PR that needs to go out by EOD isn't very helpful.
+
+* If you have questions...
+
+- Ask in #8boxes and there'll usually be someone who can help
+- Come by the browncoats team room
