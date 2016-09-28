@@ -1,42 +1,41 @@
 8b PR Issues
 Help us help you
-2 Dec 2015
+28 Sep 2016
 
 Aidan Coyle
-SE Intern
+Services Team
 acoyle@enova.com
 
-* Let the tests finish
+* Test issues
 
-Travis runs for portfolio take ~10 minutes.
+Ask us about flaky tests, we can rerun them if they're known issues
 
-Make sure to double check things like rubocop.
+If coveralls is complaining, rebase off of master and check if you've added uncovered lines to any files
 
-* PR Body
+Try to check little stuff early, spurious test runs clog up travis
 
-Write a description of the change you're making.
+* Use the PR Template
 
-Don't assume we can all see your pivotal (we probably can't).
+Write a description of the change you're making
 
-* Don't Merge
+Ensure the PO and QA fields are real people
 
-If your PR is out of date, rebase it off of master.
+Keep dependencies and tags up to date
 
-Don't use the button that says 'update branch'.
+* Write meaningful commit messages
 
-* Don't have blippy commits
+F@#% Rubocop isn't really useful information to anyone later
 
-F@#% Rubocop isn't really useful information to anyone later.
-
-You can squash these down later if you want.
+Descriptive commit messages make it easier to debug and understand code later
 
 * Ask earlier rather than later
 
-After your PR merges travis has to run again, and we need to check staging before we release. This whole process takes 30 minutes to an hour.
+After your PR merges travis has to run again, and we need to check staging before we release. This whole process takes 30 minutes to an hour
 
-Asking at 4PM about a PR that needs to go out by EOD isn't very helpful.
+Asking at 4PM about a PR that needs to go out by EOD isn't very helpful
 
 * If you have questions...
 
-- Ask in #8boxes and there'll usually be someone who can help
-- Come by the browncoats team room
+Ask in #8boxes and there'll usually be someone who can help
+
+Come by the services team room
